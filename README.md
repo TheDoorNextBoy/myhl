@@ -9,10 +9,7 @@ result = test.testFunction();
 trace('Result: '+result);
 ```
 
-The expected output in the dev environment (JS) is 
-"Result: 2" 
-and in an Android project 
-"Result: 6".
+The expected output in the dev environment (JS) is "__Result: 2__" and in an Android project "__Result: 6__".
 
 
 
