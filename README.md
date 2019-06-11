@@ -1,5 +1,16 @@
 # myhl
 Simple demo for linking a C++ library in Armory3d with webidl.
+Just drop this into your Armory projects Library folder and use like:
+
+```haxe
+var test = new MyClass();
+result = test.testFunction();
+trace('Result: '+result);
+```
+
+The expected output in the dev environment (JS) is "Result: 2" and in an Android project "Result: 6".
+
+
 
 Using:
 https://github.com/ncannasse/webidl
