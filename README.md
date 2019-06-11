@@ -3,6 +3,7 @@ Simple demo for linking a C++ library in Armory3d with webidl.
 Just drop this into your Armory projects Library folder and use like:
 
 ```haxe
+var result = 0;
 var test = new MyClass();
 result = test.testFunction();
 trace('Result: '+result);
